@@ -6,7 +6,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watch false",
     "eject": "react-scripts eject",
-    "lint": "react-scripts tslint",
+    "lint": "react-scripts tslint-react",
     "format": "prettier --write README.md src/**/*.{ts,html,scss,css}"
   },
   "husky": {
@@ -20,7 +20,7 @@
       "pretty-quick --staged"
     ],
     "*.ts": [
-      "tslint",
+      "tslint-react",
       "git add"
     ]
   },
