@@ -6,7 +6,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watch false",
     "eject": "react-scripts eject",
-    "lint": "tslint-config-prettier-check ./tslint.json",
+    "lint": "tslint -c tslint.json src/**/*.{ts,tsx} --format verbose",
     "format": "prettier --write README.md src/**/*.{ts,html,scss,css}"
   },
   "husky": {
