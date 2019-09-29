@@ -1,11 +1,20 @@
 {
-    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "extends": ["tslint:recommended","tslint-config-standard", "tslint-react", "tslint-config-prettier"],
     "linterOptions": {
       "exclude": [
         "config/**/*.js",
         "node_modules/**/*.ts",
         "coverage/lcov-report/*.js"
       ]
+    },
+    "rules": {
+      "prefer-const": true,
+      "no-shadowed-variable": true,
+      "curly": true,
+      "no-duplicate-imports": true,
+      "max-classes-per-file": {
+        "options": [2]
+      }
     }
   }
   
