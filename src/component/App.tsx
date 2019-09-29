@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 export default class App extends Component {
-  public name: string = 'React with TS';
-  public age: number = 2;
+  public name: string = "React with TS";
+  age: number = 2;
   public render() {
     return (
       <div>
