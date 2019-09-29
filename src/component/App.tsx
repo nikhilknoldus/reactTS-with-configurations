@@ -6,7 +6,7 @@ export default class App extends Component {
   public render() {
     return (
       <div>
-        <h1>Hey {this.name}, you are {this.age} years old</h1>
+        <h1>Hey{this.name}, you are {this.age} years old</h1>
       </div>
     );
   }

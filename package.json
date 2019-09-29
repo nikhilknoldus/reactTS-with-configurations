@@ -17,10 +17,10 @@
   },
   "lint-staged": {
     "*.{ts,css,html}": [
-      "lint --staged"
+      "npm run lint"
     ],
     "*.ts": [
-      "lint",
+      "npm run lint",
       "git add"
     ]
   },
