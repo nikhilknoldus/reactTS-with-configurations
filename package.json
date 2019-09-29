@@ -12,7 +12,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "prepush": "npm test --watch=false"
+      "prepush": "react-scripts test --watch=false"
     }
   },
   "lint-staged": {
@@ -46,7 +46,7 @@
     "tslint-react": "^4.1.0",
     "typescript": "^3.6.3"
   },
-  "eslintConfig": {
+  "tslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
